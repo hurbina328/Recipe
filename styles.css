@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;500;600;700&display=swap');
+html{
+   font-family: Rem, serif;
+}
+.top-nav{
+    width:fit-content;
+}
+.top-nav li{
+    float: left;
+    list-style: none;
+}
+.top-nav a {
+    display: block;
+}
+.top-nav img{
+    width: 70%;
+}
+.top-nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search *{
+    margin: 0 auto;
+    text-align: center;
+    display:block;
+    justify-content: center;
+}
+.middle{
+    background-color: white !important;
+    padding-bottom: 350px;
+}
+.container{
+    justify-content: center;
+    background-color: white;
+    width:700px;
+    margin:0 auto;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-250px;
+    margin-top:-250px;
+}
+.street-tacos img{
+    width: 50%;
+}
+.details{
+    background-color: #0D0D0D;
+    color:#7ABFBF
+}
+.ingredients{
+    width:25%;
+    float: left;
+}
+.directions{
+    width:75%;
+    float: right;
+}
+.need-Dishes{
+    background-color: #7ABFBF;
+}
+.need-Dishes table{
+    table-layout: fixed;
+    width:100%;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+.need-Dishes img{
+    width: 100%;
+    height: 100%;
+}
+.copyright{
+    float: left;
+    width:50%
+}
+.copyright img{
+    width: 50%;
+}
+.left{
+    float:left;
+    width: 50%;
+    display: flex;
+    height: 408px;
+}
+.street-tacos img{
+    width: 80%;
+    height: 100%;
+}
+.right{
+    float:right;
+    width: 50%;
+    height: 408px;
+}
+.left, .right{
+    background-color: white;
+    padding-bottom: 100px;
+}
+.logo{
+    background-color: #EB5428;
+}
+body{
+    background-color: rgba(122, 191, 191, .5);
+}
+footer nav{
+    float: right;
+    display: flex;
+    list-style: none;
+}
+menu li{
+    list-style: none;
+}
+footer li{
+        display: inline-block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+}
